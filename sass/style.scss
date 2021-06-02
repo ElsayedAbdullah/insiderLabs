@@ -49,6 +49,12 @@ body {
 
 .logo {
   margin-bottom: 45px;
+  img {
+    height: 95px;
+    @media (max-width: 991px) {
+      height: 57px;
+    }
+  }
 }
 
 .main-section-content p {
