@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.main-section {
+  background-image: url(../imgs/homepage/bg.png);
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 768px) {
+    height: 100vh;
+  }
+  @media (max-height: 600px) {
+    height: auto;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    background-size: 150%;
+    background-position: 20% 0;
+    background-repeat: no-repeat;
+  }
+  @media (max-width: 767px) {
+    background-image: url(../imgs/homepage/bg-m.png);
+  }
+}
+
+.main-section-content {
+  @media (min-width: 1024px) {
+    height: 100vh;
+  }
+  @media (max-height: 600px) {
+    height: auto;
+    padding: 50px 0;
+  }
+  @media (max-width: 991px) {
+    padding: 60px 35px 40px 40px;
+  }
+}
+
+.logo {
+  margin-bottom: 45px;
+}
+
+.main-section-content p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+p.copyright {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  color: #8b8a9d;
+  @media (min-width: 768px) {
+    position: absolute;
+    bottom: 40px;
+  }
+
+  @media (max-height: 600px) {
+    position: static;
+    margin-top: 40px;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-top: 30px;
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 40px;
+  }
+}
+
+.main-section-content p:not(:last-child) {
+  margin-bottom: 25px;
+  @media (max-width: 991px) {
+    margin-bottom: 15px;
+  }
+}
+
+.social-links {
+  display: flex;
+  margin-top: 45px;
+  li:not(:last-child) {
+    margin-right: 16px;
+  }
+  li a {
+    display: flex;
+    align-items: center;
+    padding: 11px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    background: #32323e;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    &:hover {
+      background: #424250;
+    }
+    @media (min-width: 768px) {
+      img {
+        margin-right: 12px;
+      }
+    }
+  }
+}
