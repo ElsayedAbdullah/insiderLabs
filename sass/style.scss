@@ -25,7 +25,6 @@ body {
     height: auto;
   }
   @media (min-width: 768px) and (max-width: 991px) {
-    background-size: 150%;
     background-position: 20% 0;
     background-repeat: no-repeat;
   }
@@ -41,6 +40,10 @@ body {
   @media (max-height: 600px) {
     height: auto;
     padding: 50px 0;
+  }
+
+  @media (min-height: 600px) and (max-width: 767px) {
+    height: 100vh;
   }
   @media (max-width: 991px) {
     padding: 60px 35px 40px 40px;
@@ -102,8 +105,8 @@ p.copyright {
   }
   li a {
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 11px 20px;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
@@ -112,12 +115,16 @@ p.copyright {
     border-radius: 7px;
     transition: all 0.3s ease;
     text-decoration: none;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
     &:hover {
       background: #424250;
     }
     @media (min-width: 768px) {
       img {
-        margin-right: 12px;
+        // margin-right: 8px;
       }
     }
   }
