@@ -10,7 +10,7 @@ p {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Apercu';
   font-size: 16px;
   line-height: 1.7;
 }
@@ -250,9 +250,9 @@ p.copyright {
 .snipping-header .header-left .logo span {
   font-weight: 500;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 16px;
   letter-spacing: 0.4px;
-  padding: 3px;
+  padding: 0 3px;
   background: #575761;
   border-radius: 3px;
   margin-left: 9px;
@@ -489,12 +489,12 @@ button:focus, input:focus, .form-control:focus {
 .snipping-content .box-right .box-head h3 span {
   font-weight: 500;
   font-size: 12px;
-  line-height: 12px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   background: #0BC189;
   border-radius: 3px;
-  padding: 3px 4px 1px;
+  padding: 0 4px;
+  line-height: 16px;
 }
 
 .snipping-content .box-right select {
