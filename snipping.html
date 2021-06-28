@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsiderLabs</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="fonts/Apercu-Font/Apercu-Font/Apercu-Regular.otf">
+  <link rel="stylesheet" href="fonts/Apercu-Font/Apercu-Font/Apercu-Medium.otf">
+  <link rel="stylesheet" href="fonts/Apercu-Font/Apercu-Font/Apercu-Bold.otf">
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="snipping-header">
+    <div class="header-left">
+      <div class="menu-icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 7H1C0.4 7 0 7.4 0 8C0 8.6 0.4 9 1 9H15C15.6 9 16 8.6 16 8C16 7.4 15.6 7 15 7Z" fill="white"/>
+          <path d="M15 1H1C0.4 1 0 1.4 0 2C0 2.6 0.4 3 1 3H15C15.6 3 16 2.6 16 2C16 1.4 15.6 1 15 1Z" fill="white"/>
+          <path d="M15 13H1C0.4 13 0 13.4 0 14C0 14.6 0.4 15 1 15H15C15.6 15 16 14.6 16 14C16 13.4 15.6 13 15 13Z" fill="white"/>
+        </svg>        
+      </div>
+      <div class="logo">
+        <img src="imgs/logo.svg" alt="logo">
+        <span class="text-uppercase text-white">Alpha</span>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="gwei">
+        <div class="usd">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.95806 13.4775L3.43506 10.215L8.95731 18L14.4848 10.215L8.95581 13.4775H8.95806ZM9.04206 0L3.51756 9.16725L9.04131 12.4327L14.5651 9.17025L9.04206 0Z" fill="#5F5E6C"/>
+          </svg>
+          <span class="value">$2,675</span>
+        </div>
+        <div class="gas">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.01875 2.38058L4.27 1.12933C3.30627 0.365478 2.10426 -0.0344691 0.875 -0.000297697H0V1.7497H0.875C1.63879 1.72429 2.39047 1.9455 3.01875 2.38058Z" fill="#5F5E6C"/>
+            <path d="M12.25 0.875H7L2.625 5.25V12.25C2.625 12.4821 2.71719 12.7046 2.88128 12.8687C3.04538 13.0328 3.26794 13.125 3.5 13.125H13.125C13.3571 13.125 13.5796 13.0328 13.7437 12.8687C13.9078 12.7046 14 12.4821 14 12.25V2.625C14 2.16087 13.8156 1.71575 13.4874 1.38756C13.1592 1.05937 12.7141 0.875 12.25 0.875ZM11.375 4.375H7.875C7.64294 4.375 7.42038 4.28281 7.25628 4.11872C7.09219 3.95462 7 3.73206 7 3.5C7 3.26794 7.09219 3.04538 7.25628 2.88128C7.42038 2.71719 7.64294 2.625 7.875 2.625H11.375C11.6071 2.625 11.8296 2.71719 11.9937 2.88128C12.1578 3.04538 12.25 3.26794 12.25 3.5C12.25 3.73206 12.1578 3.95462 11.9937 4.11872C11.8296 4.28281 11.6071 4.375 11.375 4.375Z" fill="#5F5E6C"/>
+          </svg>          
+          <span class="value">27 Gwei</span>  
+        </div>        
+      </div>
+      <form class="search-market">
+        <div class="form-group">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.7 11.3C13.6 10.1 14.1 8.7 14.1 7.1C14.1 3.2 11 0 7.1 0C3.2 0 0 3.2 0 7.1C0 11 3.2 14.2 7.1 14.2C8.7 14.2 10.2 13.7 11.3 12.8L14.3 15.8C14.5 16 14.8 16.1 15 16.1C15.2 16.1 15.5 16 15.7 15.8C16.1 15.4 16.1 14.8 15.7 14.4L12.7 11.3ZM7.1 12.1C4.3 12.1 2 9.9 2 7.1C2 4.3 4.3 2 7.1 2C9.9 2 12.2 4.3 12.2 7.1C12.2 9.9 9.9 12.1 7.1 12.1Z" fill="#575761"/>
+          </svg>          
+          <input type="search" placeholder="Search Market">
+        </div>
+        <span>/</span>
+        <button type="submit" class="search">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.7 11.3C13.6 10.1 14.1 8.7 14.1 7.1C14.1 3.2 11 0 7.1 0C3.2 0 0 3.2 0 7.1C0 11 3.2 14.2 7.1 14.2C8.7 14.2 10.2 13.7 11.3 12.8L14.3 15.8C14.5 16 14.8 16.1 15 16.1C15.2 16.1 15.5 16 15.7 15.8C16.1 15.4 16.1 14.8 15.7 14.4L12.7 11.3ZM7.1 12.1C4.3 12.1 2 9.9 2 7.1C2 4.3 4.3 2 7.1 2C9.9 2 12.2 4.3 12.2 7.1C12.2 9.9 9.9 12.1 7.1 12.1Z" fill="white"/>
+          </svg>
+          <span>Search</span>  
+        </button>
+      </form>
+      <div class="filter">
+        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.5 14H1.5C0.948 14 0.5 13.552 0.5 13C0.5 12.448 0.948 12 1.5 12H3.5C4.052 12 4.5 12.448 4.5 13C4.5 13.552 4.052 14 3.5 14Z" fill="#575761"/>
+          <path d="M7.5 10H1.5C0.948 10 0.5 9.552 0.5 9C0.5 8.448 0.948 8 1.5 8H7.5C8.052 8 8.5 8.448 8.5 9C8.5 9.552 8.052 10 7.5 10Z" fill="#575761"/>
+          <path d="M11.5 6H1.5C0.948 6 0.5 5.552 0.5 5C0.5 4.448 0.948 4 1.5 4H11.5C12.052 4 12.5 4.448 12.5 5C12.5 5.552 12.052 6 11.5 6Z" fill="#575761"/>
+          <path d="M15.5 2H1.5C0.948 2 0.5 1.552 0.5 1C0.5 0.448 0.948 0 1.5 0H15.5C16.052 0 16.5 0.448 16.5 1C16.5 1.552 16.052 2 15.5 2Z" fill="#575761"/>
+        </svg>
+        <span class="text-uppercase">Filter</span>  
+      </div>
+      <button class="connect-wallet">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 12V8C21 6.34315 19.6569 5 18 5H3C1.895 5 1 4.105 1 3V20C1 21.657 2.343 23 4 23H18C19.6569 23 21 21.6569 21 20V16" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+          <path d="M17 2V2C17 1.44772 16.5523 1 16 1H3C1.895 1 1 1.895 1 3C1 4.105 1.895 5 3 5" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+          <path d="M23 14C23 15.1046 22.1046 16 21 16H18C16.895 16 16 15.105 16 14C16 12.895 16.895 12 18 12H21C22.1046 12 23 12.8954 23 14V14Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+        </svg>
+        <span>Connect Wallet</span>
+      </button>
+    </div>
+  </header>
+  <div class="snipping-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 m-auto">
+          <div class="row">
+            <div class="col-7 d-flex">
+              <div class="box box-right">
+                <div class="box-head d-flex align-items-center justify-content-between">
+                  <h3>Mempool token Sniper <span>Alpha</span></h3>
+                  <div class="select">
+                    <select>
+                      <option value="pancakeswap">PancakeSwap</option>
+                      <option value="pancakeswap">PancakeSwap</option>
+                      <option value="pancakeswap">PancakeSwap</option>
+                    </select>
+                    <select>
+                      <option value="bsc">BSC</option>
+                      <option value="bsc">BSC</option>
+                      <option value="bsc">BSC</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Contract address</label>
+                  <div class="contract-address">
+                    <input type="text" value="0x26ce25148832c04f3d7f26f32478a9fe55197166">
+                    <div class="valued-icon">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM7 11.4L3.6 8L5 6.6L7 8.6L11 4.6L12.4 6L7 11.4Z" fill="#0BC189"/>
+                      </svg>                      
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Buy Amount</label>
+                  <div class="amount">
+                    <div class="bnb">
+                      <input class="form-control text-left" type="number" value="4378">
+                      <select>
+                        <option value="bnb">BNB</option>
+                        <option value="bnb">BNB</option>
+                        <option value="bnb">BNB</option>
+                      </select>
+                    </div>
+                    <div>
+                      <span class="placeholder">Gas</span>
+                      <input class="form-control" type="number" value="53">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Transaction limit / Anti-bot measures</label>
+                  <div class="transaction-limit">
+                    <div>
+                      <span class="placeholder">TX limit</span>
+                      <input class="form-control" type="number" value="1000">
+                    </div>
+                    <div>
+                      <span class="placeholder">Number of Buys</span>
+                      <input class="form-control" type="number" value="53">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Slippage / Point of cancel</label>
+                  <div class="slippage">
+                    <div class="max-slippage">
+                      <label>Max Slippage</label>
+                      <div class="inline-group">
+                        <button class="btn-minus">
+                          <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 0H0V2H8V0Z" fill="white"/>
+                          </svg>
+                        </button>
+                        <input class="form-control quantity" min="0" name="quantity" value="5" type="number">
+                        <button class="btn-plus">
+                          <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 0H3V3H0V5H3V8H5V5H8V3H5V0Z" fill="white"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="max-blocks">
+                      <label>Max Blocks since LP add</label>
+                      <div class="inline-group">
+                        <button class="btn-minus">
+                          <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 0H0V2H8V0Z" fill="white"/>
+                          </svg>
+                        </button>
+                        <input class="form-control quantity" min="0" name="quantity" value="5" type="number">
+                        <button class="btn-plus">
+                          <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 0H3V3H0V5H3V8H5V5H8V3H5V0Z" fill="white"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Advanced anti-bot measures</label>
+                  <div class="advanced-anti-bot">
+                    <div>
+                      <label>Number of blocks to wait</label>
+                      <div class="inline-group">
+                        <button class="btn-minus">
+                          <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 0H0V2H8V0Z" fill="white"/>
+                          </svg>
+                        </button>
+                        <input class="form-control quantity" min="0" name="quantity" value="5" type="number">
+                        <button class="btn-plus">
+                          <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 0H3V3H0V5H3V8H5V5H8V3H5V0Z" fill="white"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group understand-risk">
+                  <input type="checkbox" id="understand-risk">
+                  <label for="understand-risk">I understand the risk</label>
+                </div>
+                <button class="d-block w-100 order-now">Place Sniping Order</button>
+              </div>
+            </div>
+            <div class="col-5 d-flex flex-wrap">
+              <div class="box box-left token-details">
+                <h4>Token Details:</h4>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <div class="icon">
+                      <img src="imgs/dogelon.svg" alt="dogelon img">
+                    </div>
+                    <div class="info">
+                      <p>Token Name</p>
+                      <h5>dogelon</h3>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Token Symbol</p>
+                    <h5>ELON</h5>
+                  </li>
+                  <li>
+                    <p>Total Supply</p>
+                    <h5>7,820,68</h5>
+                  </li>
+                  <li>
+                    <p>Holders</p>
+                    <h5>5,68</h5>
+                  </li>
+                  <li>
+                    <p>Transfers</p>
+                    <h5>25</h5>
+                  </li>
+                </ul>
+              </div>
+              <div class="box box-left scam-box">
+                <h4>Scam Box:</h4>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <p>Danger / Risk level</p>
+                    <h5>
+                      <div class="icon">
+                        <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10 11V1C10 0.447715 9.55228 0 9 0C8.44772 0 8 0.447715 8 1V11C8 11.5523 8.44772 12 9 12C9.55228 12 10 11.5523 10 11Z" fill="#0BC189"/>
+                          <path d="M6 11V5C6 4.44772 5.55228 4 5 4C4.44772 4 4 4.44772 4 5V11C4 11.5523 4.44772 12 5 12C5.55228 12 6 11.5523 6 11Z" fill="#0BC189"/>
+                          <path d="M2 11V8C2 7.44772 1.55228 7 1 7C0.447715 7 0 7.44772 0 8V11C0 11.5523 0.447715 12 1 12C1.55228 12 2 11.5523 2 11Z" fill="#0BC189"/>
+                        </svg>
+                        </div>
+                      <span>Safe</span>
+                    </h5>
+                  </li>
+                  <li>
+                    <p>Public Contract</p>
+                    <h5>
+                      <div class="icon">
+                        <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.4001 1.99998L8.0001 0.599976L4.0001 4.59998L2.0001 2.59998L0.600098 3.99998L4.0001 7.39998L9.4001 1.99998Z" fill="#0BC189"/>
+                        </svg>                          
+                        </div>
+                      <span>Yes</span>
+                    </h5>
+                  </li>
+                  <li>
+                    <p>Mint</p>
+                    <h5>
+                      <div class="icon">
+                        <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.4001 1.99998L8.0001 0.599976L4.0001 4.59998L2.0001 2.59998L0.600098 3.99998L4.0001 7.39998L9.4001 1.99998Z" fill="#0BC189"/>
+                        </svg>                          
+                        </div>
+                      <span>No</span>
+                    </h5>
+                  </li>
+                  <li>
+                    <p>Sellable</p>
+                    <h5>
+                      <div class="icon">
+                        <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.4001 1.99998L8.0001 0.599976L4.0001 4.59998L2.0001 2.59998L0.600098 3.99998L4.0001 7.39998L9.4001 1.99998Z" fill="#0BC189"/>
+                        </svg>                          
+                        </div>
+                      <span>Yes</span>
+                    </h5>
+                  </li>
+                  <li>
+                    <p>Tornado Cash</p>
+                    <h5>
+                      <div class="icon">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.1 0.5L4 2.6L1.9 0.5L0.5 1.9L2.6 4L0.5 6.1L1.9 7.5L4 5.4L6.1 7.5L7.5 6.1L5.4 4L7.5 1.9L6.1 0.5Z" fill="#FB4E78"/>
+                        </svg>                          
+                        </div>
+                      <span>Yes</span>
+                    </h5>
+                  </li>
+                  <li>
+                    <p>Exchange Hot Wallet</p>
+                    <h5>
+                      <div class="icon">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.1 0.5L4 2.6L1.9 0.5L0.5 1.9L2.6 4L0.5 6.1L1.9 7.5L4 5.4L6.1 7.5L7.5 6.1L5.4 4L7.5 1.9L6.1 0.5Z" fill="#FB4E78"/>
+                        </svg>
+                        </div>
+                      <span>Yes</span>
+                    </h5>
+                  </li>
+                  <li>
+                    <p>Previous Rugs</p>
+                    <h5>
+                      <div class="icon">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.1 0.5L4 2.6L1.9 0.5L0.5 1.9L2.6 4L0.5 6.1L1.9 7.5L4 5.4L6.1 7.5L7.5 6.1L5.4 4L7.5 1.9L6.1 0.5Z" fill="#FB4E78"/>
+                        </svg>                       
+                        </div>
+                      <span>Yes</span>
+                    </h5>
+                  </li>
+                </ul>
+              </div>
+              <div class="box box-left disclaimer mb-0">
+                <div class="icon">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 7V19" stroke="#FB4E78" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                    <path d="M16 26C16.8284 26 17.5 25.3284 17.5 24.5C17.5 23.6716 16.8284 23 16 23C15.1716 23 14.5 23.6716 14.5 24.5C14.5 25.3284 15.1716 26 16 26Z" fill="#FB4E78"/>
+                    <path d="M22.213 1H9.787L1 9.787V22.213L9.787 31H22.213L31 22.213V9.787L22.213 1Z" stroke="#FB4E78" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                  </svg>
+                  <h4>Disclaimer</h4>
+                  <p>I fully understand I am using this tool at my own responsibility, this is a highly advanced feature that can fail and incur me massive losses. Nobody is responsible for using it other than me.</p>             
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Main js -->
+  <script src="js/main.js"></script>
+</body>
+</html>
